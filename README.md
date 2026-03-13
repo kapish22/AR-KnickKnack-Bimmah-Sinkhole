@@ -70,6 +70,26 @@ Future improvements could include:
 ## Model Sources
 3D models used in this project were obtained from Poly Pizza.
 
+## Screenshots
+
+### AR Demonstration
+
+![AR Demo](WhatsApp Image 2026-03-13 at 2.46.49 PM.jpeg)
+
+![AR Demo](WhatsApp Image 2026-03-13 at 2.46.54 PM.jpeg)
+
+![AR Demo](WhatsApp Image 2026-03-13 at 2.47.01 PM.jpeg)
+
+![AR Demo](WhatsApp Image 2026-03-13 at 2.47.13 PM.jpeg)
+
+### Unity Scene View
+
+![Unity Scene](WhatsApp Image 2026-03-13 at 2.47.24 PM.jpeg)
+
+### Hierarchy Setup
+
+![Hierarchy](WhatsApp Image 2026-03-13 at 2.49.50 PM.jpeg)
+
 ---
 
 ## Author
