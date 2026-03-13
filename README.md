@@ -129,6 +129,14 @@ This screenshot shows the Unity hierarchy where all environment objects are atta
 
 ---
 
+## Demo Video
+
+Watch the project demonstration here:
+
+[AR Knick-Knack Demo Video](https://drive.google.com/file/d/1CPiDGU7NWm8QHSFFaZAMO26SHWo_A2lm/view?usp=sharing)
+
+---
+
 # Author
 
 Kapish Jadiya  
