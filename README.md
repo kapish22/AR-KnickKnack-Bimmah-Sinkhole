@@ -109,7 +109,7 @@ Possible improvements for this project include:
 
 This screenshot shows the sinkhole environment created inside Unity.
 
-![Unity Scene](scene-view.jpeg)
+![Unity Scene](Scene-view.jpeg)
 
 ---
 
