@@ -1,96 +1,136 @@
-# AR-KnickKnack-Bimmah-Sinkhole
-Augmented Reality Knick-Knack built with Unity and Vuforia engine that reacreates Bimmah Sinkhole( Oman ) on a merge cube using MultiTarget tracking
-
 # AR Knick-Knack: Bimmah Sinkhole (Oman)
 
 ## Project Overview
-This project is an Augmented Reality knick-knack created using Unity and the Vuforia Engine. The AR scene represents Bimmah Sinkhole in Oman and appears on top of a Merge Cube using MultiTarget tracking.
 
-The goal of the project was to design a small decorative AR object that represents a meaningful real-world location.
+This project is an **Augmented Reality knick-knack** developed using **Unity and Vuforia Engine**.  
+The AR experience recreates a miniature representation of **Bimmah Sinkhole in Oman** that appears on top of a **Merge Cube** using **MultiTarget tracking**.
 
----
+When the cube is detected by the phone camera, a 3D environment representing the sinkhole appears in real time.
 
-## Design
-The AR knick-knack recreates a miniature version of the Bimmah Sinkhole environment.
+The scene includes:
 
-The center of the scene contains water representing the sinkhole. Surrounding the water are rocks that form the natural edges of the sinkhole. Palm trees were placed around the outer area to represent the natural vegetation around the location.
-
-Each side of the cube displays information about the location including:
-- Location name
-- Weather information
-- Local time
-- A short description of the sinkhole
-
-Ambient sound was also added to simulate the natural environment of the location.
+- Water representing the sinkhole
+- Limestone rocks surrounding the hole
+- Palm trees representing the natural vegetation
+- Informational text displayed on each side of the cube
+- Ambient background sound to simulate the natural environment
 
 ---
 
-## Development Process
-The project was developed using the following tools:
+# Location: Bimmah Sinkhole
+
+Bimmah Sinkhole is a natural limestone sinkhole located in Oman.  
+It contains beautiful turquoise water and is surrounded by rock formations and palm trees.
+
+This project recreates a simplified AR version of that environment.
+
+---
+
+# Technologies Used
 
 - Unity Engine
 - Vuforia Engine
 - Merge Cube MultiTarget tracking
-- TextMeshPro for text display
-
-The development process included:
-
-1. Creating a Unity project and enabling Vuforia Engine.
-2. Importing the Merge Cube database.
-3. Setting up a MultiTarget object for cube tracking.
-4. Creating the sinkhole environment using models and primitive shapes.
-5. Adding rocks and palm trees to represent the natural environment.
-6. Placing informational text on each side of the cube.
-7. Adding ambient sound using an Audio Source component.
+- TextMeshPro
+- Poly Pizza 3D assets
 
 ---
 
-## Challenges
-One challenge was correctly positioning and scaling the models so they appear properly on top of the cube. Another challenge was ensuring that all objects were placed relative to the MultiTarget so they move correctly with the Merge Cube.
+# Development Process
 
-Unity crashes also occurred during development, so frequent saving was required to prevent losing progress.
+## 1. Unity Project Setup
+A new Unity project was created and Vuforia Engine was enabled.  
+The Merge Cube database was imported and configured using a **MultiTarget object**.
+
+## 2. Environment Creation
+The sinkhole environment was constructed using:
+
+- Ground surface
+- Water object
+- Rock models placed around the edge
+- Palm tree models for vegetation
+
+These elements were placed as children of the **MultiTarget object** so they move together with the cube.
+
+## 3. Informational Cube Faces
+Each side of the cube displays different information about the location including:
+
+- Location name
+- Weather conditions
+- Local time
+- Information about the sinkhole
+
+TextMeshPro was used to display this information clearly on the cube faces.
+
+## 4. Audio
+An **Audio Source component** was added to play ambient sound when the cube is detected, creating a more immersive AR experience.
 
 ---
 
-## Future Improvements
-Future improvements could include:
+# Challenges
 
-- Real-time weather data
+Several challenges were encountered during development:
+
+- Correctly scaling the environment to fit on top of the cube
+- Aligning models relative to the MultiTarget tracking object
+- Managing Unity crashes and memory issues
+- Ensuring text objects stayed aligned with the cube faces
+
+These issues were solved through repositioning objects and frequent project saves.
+
+---
+
+# Future Improvements
+
+Possible improvements for this project include:
+
+- Real-time weather API integration
 - Animated water effects
 - Dynamic lighting based on time of day
-- Interactive features triggered when the cube is rotated
+- Interactive elements when rotating the cube
 
 ---
 
-## Demo Video
-(Add your demo video link here)
+# Screenshots
+
+## AR Demonstration
+
+![AR Demo](ar-demo-1.jpeg)
+
+![AR Demo](ar-demo-2.jpeg)
+
+![AR Demo](ar-demo-3.jpeg)
+
+![AR Demo](ar-demo-4.jpeg)
 
 ---
 
-## Model Sources
-3D models used in this project were obtained from Poly Pizza.
+## Unity Scene View
 
-## Screenshots
+This screenshot shows the sinkhole environment created inside Unity.
 
-### AR Demonstration
-
-![AR Demo](WhatsApp Image 2026-03-13 at 2.46.49 PM.jpeg)
-
-![AR Demo](WhatsApp Image 2026-03-13 at 2.46.54 PM.jpeg)
-
-![AR Demo](WhatsApp Image 2026-03-13 at 2.47.01 PM.jpeg)
-
-![AR Demo](WhatsApp Image 2026-03-13 at 2.47.13 PM.jpeg)
-
-### Unity Scene View
-
-![Unity Scene](WhatsApp Image 2026-03-13 at 2.47.24 PM.jpeg)
-
-### Hierarchy Setup
-
-![Hierarchy](WhatsApp Image 2026-03-13 at 2.49.50 PM.jpeg)
+![Unity Scene](scene-view.jpeg)
 
 ---
 
-## Author
-Kapish Jadiya
+## Hierarchy Setup
+
+This screenshot shows the Unity hierarchy where all environment objects are attached to the **MultiTarget object** so they move with the Merge Cube.
+
+![Hierarchy](hierarchy.jpeg)
+
+---
+
+# 3D Model Sources
+
+3D models used in this project were obtained from:
+
+**Poly Pizza**
+
+---
+
+# Author
+
+Kapish Jadiya  
+Computer Science Student  
+University of Cincinnati
